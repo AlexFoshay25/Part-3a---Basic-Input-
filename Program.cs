@@ -45,28 +45,21 @@ namespace Part_3___Basic_Input
             Console.WriteLine("______________________________________");
             Console.WriteLine("");
 
-            string dis1;
-            string dis2;
-            string dis3;
             double final;
             double avg = 3;
 
             Console.WriteLine("Enter a number to be recorded as distance in km");
-            dis1 = Console.ReadLine();
-            double cal1 = Convert.ToDouble(dis1);
+            double cal1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please enter another distance in km");
-            dis2 = Console.ReadLine();
-            double cal2 = Convert.ToDouble(dis2);
+            double cal2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please enter a final distance in km");
-            dis3 = Console.ReadLine();
-            double cal3 = Convert.ToDouble(dis2);
+            double cal3 = Convert.ToDouble(Console.ReadLine());
 
             final = (cal1 + cal2 + cal3) / avg;
-            final = Math.Round(final, 2);
 
-            Console.WriteLine($"The average of  {cal1}km, {cal2}km, and {cal3}km is {final}km");
+            Console.WriteLine($"The average of  {cal1}km, {cal2}km, and {cal3}km is {Math.Round(final, 2)}km");
 
             Console.WriteLine("______________________________________");
             Console.WriteLine("");
