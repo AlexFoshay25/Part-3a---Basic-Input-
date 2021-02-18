@@ -11,17 +11,6 @@ namespace Part_3___Basic_Input
             int age;
             int year;
 
-            int a;
-            int b;
-            int c;
-
-            string dis1;
-            string dis2;
-            string dis3;
-            double final;
-            double avg = 3;
-
-
             Console.WriteLine("What's Your Name?");
             name = Console.ReadLine();
             Console.WriteLine("Name:" + name);
@@ -38,6 +27,10 @@ namespace Part_3___Basic_Input
             Console.WriteLine("______________________________________");
             Console.WriteLine("");
 
+            int a;
+            int b;
+            int c;
+
             Console.WriteLine("Enter 3 Numbers");
             Console.WriteLine("#1:");
             a = Convert.ToInt32(Console.ReadLine());
@@ -51,6 +44,12 @@ namespace Part_3___Basic_Input
 
             Console.WriteLine("______________________________________");
             Console.WriteLine("");
+
+            string dis1;
+            string dis2;
+            string dis3;
+            double final;
+            double avg = 3;
 
             Console.WriteLine("Enter a number to be recorded as distance in km");
             dis1 = Console.ReadLine();
